@@ -1,14 +1,14 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import ABOUTME from "../../assets/ABOUTME.jpg";
-import "./Hero.css"; // Importing the external CSS file
+import "./Hero.css";
 
 const Hero = () => {
   return (
     <div className="hero-section">
       <img src={ABOUTME} alt="Profile" className="hero-image" />
       <h1 className="hero-title">
-        I'm{" "}
-        <span className="gradient-text">VENKATA RAJU CH</span>, Full-Stack Developer
+        I'm <span className="gradient-text">VENKATA RAJU CH</span>, Full-Stack Developer
       </h1>
       <p className="hero-description">
         I specialize in building modern and responsive web applications.
@@ -23,6 +23,17 @@ const Hero = () => {
           rel="noopener noreferrer"
         >
           <button className="resume-button">Resume</button>
+        </a>
+      </div>
+      <div className="social-icons">
+        <a href="https://github.com/venkataraju0707" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="icon" />
+        </a>
+        <a href="www.linkedin.com/in/venkatarajuch" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="icon" />
+        </a>
+        <a href="https://www.instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="icon" />
         </a>
       </div>
     </div>

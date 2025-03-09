@@ -18,10 +18,7 @@ const About = () => {
           <img src={ABOUTME} alt="About Me" className="about-image" />
           <div className="about-text">
             <p>
-              I am a passionate full-stack developer with a focus on building
-              modern and responsive web applications. With a strong foundation
-              in both frontend and backend technologies, I strive to create
-              seamless and efficient user experiences.
+            I’m Venkataraju, a passionate full-stack developer specializing in ReactJS, Node.js, Express.js, and MongoDB. I build and design web applications, including e-commerce platforms, booking apps, and AI-integrated SaaS projects. I prefer writing CSS separately and continuously improve my frontend skills. Currently, I’m exploring AI-based applications and working on innovative tech solutions.
             </p>
             <div className="skills">
               {skills.map((skill, index) => (

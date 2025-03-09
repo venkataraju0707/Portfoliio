@@ -1,24 +1,20 @@
 import React from "react";
-import "./Service.css"; // Importing external CSS
+import "./Service.css"; 
 
 const services = [
+  
   {
     id: 1,
-    title: "Web Design",
-    description: "Creating visually appealing and user-friendly web designs.",
-  },
-  {
-    id: 2,
     title: "Frontend Development",
     description: "Building responsive and interactive user interfaces.",
   },
   {
-    id: 3,
+    id: 2,
     title: "Backend Development",
     description: "Developing robust server-side logic and databases.",
   },
   {
-    id: 4,
+    id: 3,
     title: "Full-Stack Development",
     description: "Combining both frontend and backend development skills.",
   },
